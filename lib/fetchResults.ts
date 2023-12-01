@@ -127,6 +127,7 @@ export async function fetchResults(searchParams: SearchParams) {
     },
   };
 
+
   const response = await fetch("https://realtime.oxylabs.io/v1/queries", {
     method: "POST",
     body: JSON.stringify(body),
